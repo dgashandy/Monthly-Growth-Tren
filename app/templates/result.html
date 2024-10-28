@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Trend Growth Summary</h2>
+<p>Overall Trend: {{ summary['Overall Trend'] }}</p>
+<p>Top Increasing Month: {{ summary['Top Increase Month'] }} - {{ summary['Top Increase Percentage'] }}%</p>
+<p>Top Decreasing Month: {{ summary['Top Decrease Month'] }} - {{ summary['Top Decrease Percentage'] }}%</p>
+{% endblock %}
